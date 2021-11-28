@@ -13,7 +13,6 @@ def currenttime():
         now = currenttime.strftime("%H:%M:%S")
         for i in alarms:
             if now == alarms[i]:
-                print("rerejrlejrlejrlekrj")
                 notification.notify(
                     title=i,
                     message=alarms[i],
